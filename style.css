@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-image: url(./images/mainBackground.png);
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+
+
+.greenbar {
+    background: #0da487;
+    width: 1920px;
+    height: 42px;
+}
+
+
+.navbar {
+    margin-left: 160px;
+    display: flex;
+}
+
+.navbar__container {
+    width:1920px;
+    display: flex;
+    align-items: center;
+}
+
+/* General styling for the logo */
+.falogo {
+    margin-top: 25px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+/* Food part - Black */
+.food {
+    color: #0DA487;
+}
+
+/* Atlas part - Green */
+.atlas {
+    color: #222222;
+}
+
+/* Period - Black */
+.period {
+    color:#0DA487;
+}
+
+/* SEARCH BAR SECTION */
+.search {
+    align-items: center;
+    width: 575px;
+    height: 49px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #ECECEC;
+    display: flex;
+    margin-left: 269.34px;
+    margin-top: 25px;
+    
+}
+
+.search-input {
+    font-size:15.13px;
+    color: #222222;
+    margin: 15px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 541px;
+    height: 18px;
+
+}
+
+.search-input::placeholder {
+    color:#6C757D;
+}
+
+#search_icon_enter {
+    background:#FFA53B;
+    height: 51px;
+    width: 62px;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #FFFFFF;
+}
+
+.like_recipe {
+    background: transparent;
+}
+
+.like_recipe {
+    margin-left:195.52px;
+
+}
+
+#heart {
+    background: transparent;
+    outline: none;
+    border:none;
+    border-right: 1px solid rgba(74, 85, 104, 0.5);
+    padding-right: 17px;
+    height: 24px;
+
+}
+
+#person {
+    outline:none;
+    background: transparent;
+    border: none;
+    display:flex;
+    color:#4A5568;
+    font-size: 14px;
+    font-family: "Public Sans", serif;
+    padding-left: 14px;
+    padding-right: 6px;
+    border-right: 1px solid rgba(74, 85, 104, 0.5);
+    height: 24px;
+
+}
+
+/* BLOCKS  */
+
+.mainblocks {
+    display:flex;
+    margin: 87px 148px 50px 160px;
+}
+
+.biggestblock {
+    background-image: url(./images/biggestBlockBG.png);
+    height: 696.5px;
+    width: 1058.66px;
+    border-radius: 10px;
+
+}
+
+.twoblocks {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.block1 {
+    background-image: url(./images/block1BG.png);
+    background-size: cover;
+    width: 517.33px;
+    height: 336.25px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    
+}
+
+.block2 {
+    background-image: url(./images/block2BG.jpg);
+    background-size: cover;
+    width: 517.33px;
+    height: 336.25px;
+    border-radius: 10px;
+}
+
+
+/* TEXT STYLING*/
+
+.texts{
+    margin-bottom: 10px;
+}
+
+.specialHeader {
+    width: 539.19px;
+    height: 118.49px;
+    padding-top: 235.44px;
+    padding-left: 60px;
+    font-family: "Public Sans", serif;
+    font-size: 42px;
+
+}
+
+.stay {
+    font-weight: 600;
+    color:#222222;
+
+}
+
+.dailydishes {
+    font-weight: 800;
+    color: #0DA487;
+}
+
+.descrip {
+    font-family: "Public Sans", serif;
+    font-size: 14px;
+    color: #4A5568;
+    width: 470.25px;
+    height: 54px;
+    padding-left: 60px;
+    padding-top: 115px;
+   
+
+}
+
+.simpleText h2{
+    color: #0DA487;
+    font-size: 26px;
+    font-family: "Public Sans", serif;
+    padding-top: 40px;
+    padding-left: 35.34px;
+}
+
+.simpleText p {
+    color: #4A5568;
+    font-size: 14px;
+    font-family: "Public Sans", serif;
+    padding-left: 35.34px;
+    width: 207.41px;
+    padding-top: 10.19px;
+
+}
+
+
+.linebox {
+    display:flex;
+    padding-left: 160px;
+    padding-bottom: 30px;
+    padding-right: 160px;
+      
+    
+}
+
+.firstbox {
+    background-image: url(./images/firstblockIMG.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 385px;
+    height: 231px;
+    margin-right: 20px;
+   
+}
+
+.secondbox {
+    background-image: url(./images/secondblockIMG.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 385px;
+    height: 231px;
+    margin-right: 20px;
+}
+
+.thirdbox {
+    background-image: url(./images/thirdblockIMG.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 385px;
+    height: 231px;
+    margin-right: 20px;
+}
+
+.fourthbox {
+    background-image: url(./images/fourthblockIMG.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 385px;
+    height: 231px;
+    
+}
+
+
+
+/* TEXT STYLING*/
+
+.textInside {
+    font-family: "Public Sans", serif;
+    width: 252.42px;
+    height: 91.19px;
+    background-color: #FFFFFF80;
+    box-shadow: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 60px 60px 0px;
+    margin-top:30px;
+    padding-left: 12px;
+}
+
+.textInside h3 {
+    color: #222222;
+    font-size: 18px;
+    padding-top: 16.5px;
+    padding-left: 12px;
+}
+
+.textInside p {
+    color: #4A5568;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+
+
