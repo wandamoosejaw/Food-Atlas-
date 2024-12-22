@@ -402,12 +402,135 @@ body {
 }
 
 .footer {
-    background-color: #F8F8F8 ;
-    background-image: "images/footerBG.png";
+    width:1920px;
+    height: 750px;
+    background: #F8F8F8 url(./images/footersidebg.png) left top no-repeat;
+    font-family: "Public Sans", serif;
+    padding-top: 50px;
+}
+
+.footer__container {
+    margin: auto;
+    width: 1600px;
+    border-top: 1px dotted #c1c1c1;
+    border-bottom: 1px dotted #c1c1c1;
+    padding-bottom: 30px;
+    display: flex;
+    
+    
+}
+
+.footer__item__main {
+    padding-top: 25px;
+    padding-right: 95px;
+}
+
+.footer__item__main p {
+    width: 298.58px;
+    height: 51px;
+    color: #4A5568;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.address {
+    display: flex;
+    .footericon {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+    
+}
+
+.email{
+    display: flex;
+    .footericon {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        margin-right: 10px;
+        
+    }
+    
+}
+
+.footer__item {
+    padding-top: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__item a {
+    text-decoration: none;
+    color: #4A5568;
+    margin: 15px 0 15px 0;
+    
+    
+}
+
+.footer__item h2 && .footer__item__last h2 {
+    height: 24px;
+    font-size: 20px;  
 
 }
 
 
+.footer__item__last {
+    padding-top: 50px;
+
+}
+
+.label {
+    color: #4A5568;
+    font-size: 14px;
+    display: flex;
+
+    
+}
+
+.info {
+    color:#222222;
+    font-size: 16px;
+    font-weight:600;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #c1c1c1;
+   
+}
 
 
+.hotline{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    width: 382px;
+    height: 65px;
+}
+
+.emailadd {
+    padding-top: 15px;
+    margin-bottom: 5px;
+    width: 382px;
+    height: 65px;
+}
+
+.smallfootericon {
+    margin-right: 10px;
+}
+
+.last {
+    width: 1600px;
+    height: 96px;
+    margin: auto;
+}
+
+.rights {
+    margin: auto;
+    padding-top: 40px;
+    color:#4a5568;
+}
 
