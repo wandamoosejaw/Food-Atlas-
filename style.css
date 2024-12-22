@@ -393,7 +393,21 @@ body {
 
 .recipeslist {
     padding-left: 7px;
+    height: 827.59px;
 }
+
+.reciperesult {
+    width: 1624px;
+    height: 959px;
+}
+
+.footer {
+    background-color: #F8F8F8 ;
+    background-image: "images/footerBG.png";
+
+}
+
+
 
 
 
