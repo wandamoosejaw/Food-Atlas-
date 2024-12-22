@@ -473,6 +473,10 @@ body {
     
 }
 
+.footer__item a:hover {
+    color:#0DA487;
+}
+
 .footer__item h2 && .footer__item__last h2 {
     height: 24px;
     font-size: 20px;  
