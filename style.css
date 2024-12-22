@@ -308,5 +308,54 @@ body {
     padding-top: 5px;
 }
 
+.categories_recipes {
+    margin-left: 148px;
+
+}
+
+.categories {
+    background-color:#F8F8F8;
+    height: 826px;
+    width: 382px;
+    border-radius: 5px;
+    padding-left: 33px;
+    
+}
+
+.categories h2 {
+    color: #222222;
+    font-size: 20px;
+    font-family: "Public Sans", serif;
+    padding-top: 33px;
+    margin-bottom: 6px;
+
+}
+
+.line {
+    width: 60.72px;
+    height: 2px;
+    background-color:#0DA487;
+    padding-top: 6px;
+    margin-bottom: 30px;
+}
+
+.item {
+    color:#222222;
+    font-family: "Public Sans", serif;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.category {
+    height: 25px;
+    width: 178.95px;
+    list-style-type: none;
+    margin-bottom: 23px;
+     
+}
+
+
+
 
 
