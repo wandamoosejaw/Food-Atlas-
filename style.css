@@ -310,6 +310,7 @@ body {
 
 .categories_recipes {
     margin-left: 148px;
+    display: flex;
 
 }
 
@@ -319,6 +320,7 @@ body {
     width: 382px;
     border-radius: 5px;
     padding-left: 33px;
+    
     
 }
 
@@ -339,23 +341,59 @@ body {
     margin-bottom: 30px;
 }
 
+.dottedlines {
+    border:none;
+    border-bottom: #4A5568 50%;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    width: 316px;
+    padding-top: 20px;
+    
+
+}
+
 .item {
     color:#222222;
     font-family: "Public Sans", serif;
     font-size: 16px;
     text-decoration: none;
-    
+    margin: auto;
+    height: 25px;
+    display: flex;
+    padding: 10px;
+
 }
 
 .category {
-    height: 25px;
-    width: 178.95px;
     list-style-type: none;
-    margin-bottom: 23px;
-     
+    height: 45px;
+    width: 316px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+    
 }
 
+.icon {
+    margin-right: 16px;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
 
+.category:hover {
+    background-color: #0DA487;
+    .item {
+        color: #FFFFFF;
+    }
+    .icon {
+        filter: brightness(0) invert(1); 
+    }
+}
+
+.recipeslist {
+    padding-left: 7px;
+}
 
 
 
